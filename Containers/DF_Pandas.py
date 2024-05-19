@@ -6,10 +6,7 @@ import os
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
     current_dir = os.path.dirname(__file__)
-    relative_path = os.path.join(current_dir, '..', 'Packages', 'Loading_Dataset', 'data', 'New_coordinates_titles.csv')
-
-    
-    relative_path = os.path.normpath(relative_path)
+    relative_path = os.path.join(current_dir, '..', 'Packages', 'Loading_DataSet', 'data', 'New_coordinates_titles.csv')
     print('path',relative_path)
     config.filepath.from_value(relative_path)
     
