@@ -9,12 +9,9 @@ class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
     print(os.getcwd())
 
-    relative_path = '/app/Packages/Loading_DataSet/data/New_coordinates_titles.csv'
-    if not os.path.exists(relative_path):
-        print(f"File {relative_path} does not exist")
-    if not os.path.exists(directory_path):
-        print(f"Directory {directory_path} does not exist")
-    config.filepath.from_value(absolute_path)
+    current_dir = os.path.dirname(__file__)
+    relative_path = os.path.join(current_dir, 'Packages','Loading_Dataset' 'data', 'New_coordinates_titles.csv')
+    config.filepath.from_value(relative_path)
     
     entity = providers.Factory(DataFrameEntity, filepath=config.filepath)
     control = providers.Factory(DataFrameControl, dataframe_entity=entity)
