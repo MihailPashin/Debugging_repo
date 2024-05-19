@@ -9,5 +9,6 @@ transformers==4.40.2
 sentence-transformers==2.7.0
 txtai==7.1.0
 sentencepiece
+protobuf
 
 
