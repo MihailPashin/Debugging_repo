@@ -5,9 +5,12 @@ import os
 
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
-    name_of_file='New_coordinates_titles.csv'
     current_dir = os.path.dirname(__file__)
-    relative_path = os.path.join(current_dir, '..', 'Packages','Loading_Dataset', 'data', name_of_file)
+    relative_path = os.path.join(current_dir, '..', 'Packages', 'Loading_Dataset', 'data', 'New_coordinates_titles.csv')
+
+    
+    relative_path = os.path.normpath(relative_path)
+    print('path',relative_path)
     config.filepath.from_value(relative_path)
     
     entity = providers.Factory(DataFrameEntity, filepath=config.filepath)
