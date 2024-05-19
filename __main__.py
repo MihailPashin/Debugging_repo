@@ -14,7 +14,7 @@ if __name__ == "__main__" :
     topic_boundary = Topic_Container().boundary()
     topics=topic_boundary.check_groups_and_save() ## Отобразил и вернул все тематики
     print('Выполнено сохранение тематик')
-
+    print('test branch')
     df_boundary = Pandas_Container().boundary()
     reviews = df_boundary.get_reviews('message')  # Получил все отзывы  
     entire_df = df_boundary.get_all_dataframe()   # Получил весь датафрейм
