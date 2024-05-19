@@ -2,15 +2,12 @@ from dependency_injector import containers, providers
 from Packages.Loading_DataSet.Pandas_ECB_df import DataFrameEntity,DataFrameBoundary,DataFrameControl
 import os
 
-relative_path = '/app/Packages/Loading_DataSet/data/New_coordinates_titles.csv'
-absolute_path = os.path.abspath(os.path.join(os.getcwd(), relative_path))
-directory_path = '/app/Packages/Loading_DataSet/data/'
+
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
-    print(os.getcwd())
-
+    name_of_file='New_coordinates_titles.csv'
     current_dir = os.path.dirname(__file__)
-    relative_path = os.path.join(current_dir, 'Packages','Loading_Dataset' 'data', 'New_coordinates_titles.csv')
+    relative_path = os.path.join(current_dir, '..', 'Packages','Loading_Dataset', 'data', name_of_file)
     config.filepath.from_value(relative_path)
     
     entity = providers.Factory(DataFrameEntity, filepath=config.filepath)
