@@ -8,6 +8,12 @@ absolute_path = os.path.abspath(os.path.join(os.getcwd(), relative_path))
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
     print(os.getcwd())
+
+    relative_path = '/app/Packages/Loading_DataSet/data/New_coordinates_titles.csv'
+    if not os.path.exists(relative_path):
+        print(f"File {relative_path} does not exist")
+    if not os.path.exists(directory_path):
+        print(f"Directory {directory_path} does not exist")
     config.filepath.from_value(absolute_path)
     
     entity = providers.Factory(DataFrameEntity, filepath=config.filepath)
