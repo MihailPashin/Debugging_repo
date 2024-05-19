@@ -5,7 +5,9 @@ numpy
 regex==2024.5.10
 scikit-learn
 nltk==3.8.1
+transformers==4.40.2
 sentence-transformers==2.7.0
 txtai==7.1.0
+sentencepiece
 
 

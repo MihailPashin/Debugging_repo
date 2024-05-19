@@ -2,7 +2,7 @@ from Containers.Topic_Checker import Topic_Container
 from Containers.DF_Pandas import Pandas_Container
 from Containers.Yake import Yake_Container
 from Containers.RuBERT import RuBERT_Container
-#from Containers.XLM_RoBERTa import SentimentModel_Container
+from Containers.XLM_RoBERTa import SentimentModel_Container
 #from Containers.List2JSON import Save2JSON_Container
 #from Containers.DataPostProcessing import DataPostProcess_Container
 #from Containers.Normalize_Weigth import NormalizerWeight_Container
@@ -29,6 +29,13 @@ if __name__ == "__main__" :
     rubert_boundary.activate_embed(keywords) # Создание векторного пространства слов.
     list_by_groups = rubert_boundary.process_reviews(topics, reviews)
     print('Разметка отзывов по тематикам выполнена и сохранена ')
+    
+    sentiment_boundary = SentimentModel_Container().boundary()
+    result = sentiment_boundary.analyze_sentiments(list_by_groups, topics)
+    print('Sentiment Analysis произведён. Число строк в таблице',len(result))
+    sliced_df = pd.concat([result.head(5), result.tail(5)])
+    print ('Результирующий DataFrame',sliced_df)
+
     '''
     
     json_saver = Save2JSON_Container()
