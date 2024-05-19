@@ -4,7 +4,7 @@ import os
 
 relative_path = '/app/Packages/Loading_DataSet/data/New_coordinates_titles.csv'
 absolute_path = os.path.abspath(os.path.join(os.getcwd(), relative_path))
-
+directory_path = '/app/Packages/Loading_DataSet/data/'
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
     print(os.getcwd())
