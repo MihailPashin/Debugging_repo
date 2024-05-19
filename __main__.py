@@ -23,16 +23,18 @@ if __name__ == "__main__" :
     yake_boundary = Yake_Container().boundary()
     keywords = yake_boundary.get_keywords(reviews) ## Проверка отзывов на словарь + Извлечение ключ. фраз.
     print('Ключевые фразы извлечены и приведены к формату ', type(keywords))
-    '''
-    json_saver = Save2JSON_Container()
-    json_saver.config.nested_list.from_value(keywords)
-    json_saver.init_convert().save_to_json('Results_in_JSON','yake_keywords.json') ## Сохрание ключ. фраз в JSON 
+    
 
     rubert_boundary = RuBERT_Container().boundary()
     rubert_boundary.activate_embed(keywords) # Создание векторного пространства слов.
     list_by_groups = rubert_boundary.process_reviews(topics, reviews)
     print('Разметка отзывов по тематикам выполнена и сохранена ')
+    '''
     
+    json_saver = Save2JSON_Container()
+    json_saver.config.nested_list.from_value(keywords)
+    json_saver.init_convert().save_to_json('Results_in_JSON','yake_keywords.json') ## Сохрание ключ. фраз в JSON 
+
     sentiment_boundary = SentimentModel_Container().boundary()
     result = sentiment_boundary.analyze_sentiments(list_by_groups, topics)
     print('Sentiment Analysis произведён. Число строк в таблице',len(result))

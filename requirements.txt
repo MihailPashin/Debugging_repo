@@ -1,4 +1,11 @@
 dependency-injector==4.41.0
 pandas==2.2.2
 yake==0.4.8
+numpy==1.26.4
+regex==2024.5.10
+scikit-learn=1.4.2
+nltk=3.8.1
+sentence-transformers==2.7.0
+txtai==7.1.0
+
 
