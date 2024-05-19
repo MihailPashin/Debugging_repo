@@ -1,5 +1,7 @@
 from dependency_injector import containers, providers
 from Packages.Loading_DataSet.Pandas_ECB_df import DataFrameEntity,DataFrameBoundary,DataFrameControl
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class Pandas_Container(containers.DeclarativeContainer):
     config = providers.Configuration()
