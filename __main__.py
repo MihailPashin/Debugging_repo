@@ -19,10 +19,11 @@ if __name__ == "__main__" :
     reviews = df_boundary.get_reviews('message')  # Получил все отзывы  
     entire_df = df_boundary.get_all_dataframe()   # Получил весь датафрейм
     print('Импотированный датасет сохранен и приведен к нужному формату - ', type(entire_df))
-    '''
+    
     yake_boundary = Yake_Container().boundary()
     keywords = yake_boundary.get_keywords(reviews) ## Проверка отзывов на словарь + Извлечение ключ. фраз.
     print('Ключевые фразы извлечены и приведены к формату ', type(keywords))
+    '''
     json_saver = Save2JSON_Container()
     json_saver.config.nested_list.from_value(keywords)
     json_saver.init_convert().save_to_json('Results_in_JSON','yake_keywords.json') ## Сохрание ключ. фраз в JSON 
