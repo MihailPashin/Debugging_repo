@@ -1,0 +1,477 @@
+[
+    {
+        "object_id": 1,
+        "title": "Neo",
+        "coord_id": 1
+    },
+    {
+        "object_id": 2,
+        "title": "Андреевский",
+        "coord_id": 2
+    },
+    {
+        "object_id": 3,
+        "title": "Береговая, 8а",
+        "coord_id": 3
+    },
+    {
+        "object_id": 4,
+        "title": "Берендеевы пруды",
+        "coord_id": 4
+    },
+    {
+        "object_id": 5,
+        "title": "Близнецы",
+        "coord_id": 5
+    },
+    {
+        "object_id": 6,
+        "title": "В МКР. Давыдовский",
+        "coord_id": 6
+    },
+    {
+        "object_id": 7,
+        "title": "В МКР. Новый город, 10б, 10в",
+        "coord_id": 7
+    },
+    {
+        "object_id": 8,
+        "title": "В проезде Судостроителей, 41",
+        "coord_id": 8
+    },
+    {
+        "object_id": 9,
+        "title": "Васильевское, 8а",
+        "coord_id": 9
+    },
+    {
+        "object_id": 10,
+        "title": "Венеция",
+        "coord_id": 10
+    },
+    {
+        "object_id": 11,
+        "title": "Виктория",
+        "coord_id": 11
+    },
+    {
+        "object_id": 12,
+        "title": "Волжский Берег",
+        "coord_id": 12
+    },
+    {
+        "object_id": 13,
+        "title": "Высотка на Боровой",
+        "coord_id": 13
+    },
+    {
+        "object_id": 14,
+        "title": "Галерея",
+        "coord_id": 14
+    },
+    {
+        "object_id": 15,
+        "title": "Гармония",
+        "coord_id": 15
+    },
+    {
+        "object_id": 16,
+        "title": "Движение",
+        "coord_id": 16
+    },
+    {
+        "object_id": 17,
+        "title": "Дом на Кинешемке",
+        "coord_id": 17
+    },
+    {
+        "object_id": 18,
+        "title": "Дом у Парка Победы",
+        "coord_id": 18
+    },
+    {
+        "object_id": 19,
+        "title": "Европейский",
+        "coord_id": 19
+    },
+    {
+        "object_id": 20,
+        "title": "Катино",
+        "coord_id": 20
+    },
+    {
+        "object_id": 21,
+        "title": "Катушечная, 13",
+        "coord_id": 21
+    },
+    {
+        "object_id": 22,
+        "title": "Красноармейская, 7",
+        "coord_id": 22
+    },
+    {
+        "object_id": 23,
+        "title": "Кристалл",
+        "coord_id": 23
+    },
+    {
+        "object_id": 24,
+        "title": "Купеческий дом",
+        "coord_id": 24
+    },
+    {
+        "object_id": 25,
+        "title": "Легенда",
+        "coord_id": 25
+    },
+    {
+        "object_id": 26,
+        "title": "Ленинский",
+        "coord_id": 26
+    },
+    {
+        "object_id": 27,
+        "title": "Лесной квартал",
+        "coord_id": 27
+    },
+    {
+        "object_id": 28,
+        "title": "Луговой",
+        "coord_id": 28
+    },
+    {
+        "object_id": 29,
+        "title": "Лучи",
+        "coord_id": 29
+    },
+    {
+        "object_id": 30,
+        "title": "МКР. Новый Город, 8а",
+        "coord_id": 30
+    },
+    {
+        "object_id": 31,
+        "title": "Маршал",
+        "coord_id": 31
+    },
+    {
+        "object_id": 32,
+        "title": "Маяк",
+        "coord_id": 32
+    },
+    {
+        "object_id": 33,
+        "title": "Мечта",
+        "coord_id": 33
+    },
+    {
+        "object_id": 34,
+        "title": "На Водяной",
+        "coord_id": 34
+    },
+    {
+        "object_id": 35,
+        "title": "На Московской",
+        "coord_id": 35
+    },
+    {
+        "object_id": 36,
+        "title": "На Покровке",
+        "coord_id": 36
+    },
+    {
+        "object_id": 37,
+        "title": "На Фестивальной",
+        "coord_id": 37
+    },
+    {
+        "object_id": 38,
+        "title": "На ул. Войкова, 26-30",
+        "coord_id": 38
+    },
+    {
+        "object_id": 39,
+        "title": "На ул. Димитрова, 15",
+        "coord_id": 39
+    },
+    {
+        "object_id": 40,
+        "title": "На ул. Индустриальная, 18",
+        "coord_id": 40
+    },
+    {
+        "object_id": 41,
+        "title": "На ул. Калиновская, 89",
+        "coord_id": 41
+    },
+    {
+        "object_id": 42,
+        "title": "На ул. Козуева, 46",
+        "coord_id": 42
+    },
+    {
+        "object_id": 43,
+        "title": "На ул. Козуева, 80",
+        "coord_id": 43
+    },
+    {
+        "object_id": 44,
+        "title": "На ул. Костромской, 100",
+        "coord_id": 44
+    },
+    {
+        "object_id": 45,
+        "title": "На ул. Красная Слобода, 20",
+        "coord_id": 45
+    },
+    {
+        "object_id": 46,
+        "title": "На ул. Крупской, 22",
+        "coord_id": 46
+    },
+    {
+        "object_id": 47,
+        "title": "На ул. Ленина, 131",
+        "coord_id": 47
+    },
+    {
+        "object_id": 48,
+        "title": "На ул. Ленина, 74",
+        "coord_id": 48
+    },
+    {
+        "object_id": 49,
+        "title": "На ул. Ленина, 88",
+        "coord_id": 49
+    },
+    {
+        "object_id": 50,
+        "title": "На ул. Маршала Новикова, 25",
+        "coord_id": 50
+    },
+    {
+        "object_id": 51,
+        "title": "На ул. Нижняя Дебря, 32",
+        "coord_id": 51
+    },
+    {
+        "object_id": 52,
+        "title": "На ул. Нижняя Дебря, 68",
+        "coord_id": 52
+    },
+    {
+        "object_id": 53,
+        "title": "На ул. Северной Правды, 36",
+        "coord_id": 53
+    },
+    {
+        "object_id": 54,
+        "title": "На ул. Спасокукоцкого, 43",
+        "coord_id": 54
+    },
+    {
+        "object_id": 55,
+        "title": "На ул. Старо-Караваевская, 12",
+        "coord_id": 55
+    },
+    {
+        "object_id": 56,
+        "title": "На ул. Учхоза, 23",
+        "coord_id": 56
+    },
+    {
+        "object_id": 57,
+        "title": "На ул. Шагова, 68",
+        "coord_id": 57
+    },
+    {
+        "object_id": 58,
+        "title": "На ул. Юных пионеров",
+        "coord_id": 58
+    },
+    {
+        "object_id": 59,
+        "title": "На ул. Юрия Смирнова, 15а",
+        "coord_id": 59
+    },
+    {
+        "object_id": 60,
+        "title": "На ул. и. Сусанина, 5",
+        "coord_id": 60
+    },
+    {
+        "object_id": 61,
+        "title": "Нижняя Дебря",
+        "coord_id": 61
+    },
+    {
+        "object_id": 62,
+        "title": "Новый город",
+        "coord_id": 62
+    },
+    {
+        "object_id": 63,
+        "title": "Озерный",
+        "coord_id": 63
+    },
+    {
+        "object_id": 64,
+        "title": "Парковый",
+        "coord_id": 64
+    },
+    {
+        "object_id": 65,
+        "title": "Пионер",
+        "coord_id": 65
+    },
+    {
+        "object_id": 66,
+        "title": "По ПР. Рабочему",
+        "coord_id": 66
+    },
+    {
+        "object_id": 67,
+        "title": "По Ул. 8 Марта, 65",
+        "coord_id": 67
+    },
+    {
+        "object_id": 68,
+        "title": "По пер. 2-ой Осторожный",
+        "coord_id": 68
+    },
+    {
+        "object_id": 69,
+        "title": "По проезду Чернореченский, 6",
+        "coord_id": 69
+    },
+    {
+        "object_id": 70,
+        "title": "По ул. 7-я Рабочая",
+        "coord_id": 70
+    },
+    {
+        "object_id": 71,
+        "title": "По ул. Войкова",
+        "coord_id": 71
+    },
+    {
+        "object_id": 72,
+        "title": "По ул. Галичской",
+        "coord_id": 72
+    },
+    {
+        "object_id": 73,
+        "title": "По ул. Даремская, 18",
+        "coord_id": 73
+    },
+    {
+        "object_id": 74,
+        "title": "По ул. Индустриальной, 30а",
+        "coord_id": 74
+    },
+    {
+        "object_id": 75,
+        "title": "По ул. Комсомольская, 73",
+        "coord_id": 75
+    },
+    {
+        "object_id": 76,
+        "title": "По ул. Нариманова",
+        "coord_id": 76
+    },
+    {
+        "object_id": 77,
+        "title": "По ул. Симановского, 71",
+        "coord_id": 77
+    },
+    {
+        "object_id": 78,
+        "title": "По ул. Соловьиная",
+        "coord_id": 78
+    },
+    {
+        "object_id": 79,
+        "title": "По ул. Терешковой, 29",
+        "coord_id": 79
+    },
+    {
+        "object_id": 80,
+        "title": "По ул. Шагова, 55",
+        "coord_id": 80
+    },
+    {
+        "object_id": 81,
+        "title": "По ул. Экскаваторщиков, 54",
+        "coord_id": 81
+    },
+    {
+        "object_id": 82,
+        "title": "Проезд Кинешемский 1-й, 20",
+        "coord_id": 82
+    },
+    {
+        "object_id": 83,
+        "title": "Ровесник",
+        "coord_id": 83
+    },
+    {
+        "object_id": 84,
+        "title": "Романовский",
+        "coord_id": 84
+    },
+    {
+        "object_id": 85,
+        "title": "Симановского 91",
+        "coord_id": 85
+    },
+    {
+        "object_id": 86,
+        "title": "Солнечный",
+        "coord_id": 86
+    },
+    {
+        "object_id": 87,
+        "title": "Солнечный город",
+        "coord_id": 87
+    },
+    {
+        "object_id": 88,
+        "title": "Союз",
+        "coord_id": 88
+    },
+    {
+        "object_id": 89,
+        "title": "Университет",
+        "coord_id": 89
+    },
+    {
+        "object_id": 90,
+        "title": "Флагман",
+        "coord_id": 90
+    },
+    {
+        "object_id": 91,
+        "title": "Центральный",
+        "coord_id": 91
+    },
+    {
+        "object_id": 92,
+        "title": "Чемпион",
+        "coord_id": 92
+    },
+    {
+        "object_id": 93,
+        "title": "Школьник",
+        "coord_id": 93
+    },
+    {
+        "object_id": 94,
+        "title": "Энергия",
+        "coord_id": 94
+    },
+    {
+        "object_id": 95,
+        "title": "Эталон",
+        "coord_id": 95
+    }
+]
